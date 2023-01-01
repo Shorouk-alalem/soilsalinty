@@ -8,9 +8,9 @@ function App() {
       
        <Router>
           <Routes>
-            <Route path="/" element={<LandingPage/>}/>
-            <Route path="/statistics" element={ <Statistics />} />
-            <Route path="/graphs" element={<Graphs />} />
+            <Route path="/dataanalysis" element={<LandingPage/>}/>
+            <Route path="/dataanalysis/statistics" element={ <Statistics />} />
+            <Route path="/dataanalysis/graphs" element={<Graphs />} />
           </Routes>
         </Router>
     </div>
