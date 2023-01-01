@@ -93,7 +93,7 @@ function Statistics() {
                 </Table>
             </TableContainer>
         </Item>
-        <Item><Button variant="contained" ><Link to="/graphs" style={{textDecoration:"none",color:'white'}}><EqualizerIcon/><TimelineIcon/>  View Visual Data </Link>  </Button></Item>
+        <Item><Link to="/graphs" style={{textDecoration:"none",color:'white'}}><Button variant="contained" ><EqualizerIcon/><TimelineIcon/>  View Visual Data   </Button></Link></Item>
       </Grid>
       <Grid item xs={8}>
       <h3 align="center" style={{color:"black"}}>Data collected from the sensors</h3>
