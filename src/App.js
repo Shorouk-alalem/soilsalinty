@@ -1,5 +1,4 @@
 import Statistics from './components/statistics';
-import Appbar from './components/Appbar'
 import Graphs from './components/Graphs';
 import LandingPage from './components/LandingPage';
 import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
