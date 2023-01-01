@@ -9,7 +9,7 @@ import img2 from './Temp.png';
 import img3 from './TDS.png';
 import img4 from './regression.png';
 
-/*interface TabPanelProps {
+interface TabPanelProps {
   children?: React.ReactNode;
   index: number;
   value: number;
@@ -80,14 +80,5 @@ export default function Graphs() {
       </TabPanel>
     </Box>
   );
-}*/
-
-function Graphs() {
-  return (
-    <div>
-      hello
-    </div>
-  )
 }
 
-export default Graphs
